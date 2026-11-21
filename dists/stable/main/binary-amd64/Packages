@@ -1,0 +1,22 @@
+Package: slate-desktop
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: x11
+Maintainer: Slate <slate@example.invalid>
+Installed-Size: 2208
+Depends: base-files, kde-plasma-desktop, sddm, sddm-theme-breeze, plymouth, plymouth-label, numix-icon-theme-circle, breeze-gtk-theme, fonts-noto-core, fonts-hack
+Recommends: brave-browser, dolphin, konsole, kde-spectacle, gwenview, okular, ark, kcalc, mpv, plasma-discover, papirus-icon-theme, fonts-noto-color-emoji
+Filename: pool/main/slate-desktop_0.2.0_all.deb
+Size: 794968
+MD5sum: c557c8aaadd138259bed97d38f408167
+SHA1: 1e69555b3b588adf978e1c5f63a8e961d68270a9
+SHA256: 76b32c5a41edea3c91a5806621cd3791aedd8e1ecfa00c1d3f73fb9299f6971a
+SHA512: 4fbf1a8a659a8c8c0e74936e5e5f64d4faa71fada5a76108a1d2df89e4a532961651c5f15f646fdefb88bbf17ce6f19fa7926b19ba720f2c34c6a4127dcafd3f
+Description: Slate desktop: theme, wallpapers, boot splash and branding
+ Everything that makes a Debian + KDE Plasma system look and feel like Slate:
+ the Slate global themes (dark and light), color schemes, round icon theme,
+ wallpapers, Plymouth boot splash, login screen look, GRUB defaults, default
+ apps and the Slate os-release. Also adds the Slate update server, so new
+ Slate versions arrive with normal system updates.
+
