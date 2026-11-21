@@ -12,5 +12,6 @@ Components: main
 Signed-By: /usr/share/keyrings/slate-archive-keyring.gpg
 SRC
 apt-get update
-apt-get install -y slate-desktop
+# Agate copied these files without a package; take slate-desktop's versions instead of asking
+apt-get install -y -o Dpkg::Options::=--force-confnew slate-desktop
 echo "Slate updates are on. Log out and back in to see theme changes."
