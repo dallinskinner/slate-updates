@@ -20,3 +20,45 @@ Description: Slate desktop: theme, wallpapers, boot splash and branding
  apps and the Slate os-release. Also adds the Slate update server, so new
  Slate versions arrive with normal system updates.
 
+Package: slate-desktop
+Architecture: all
+Version: 0.2.1
+Priority: optional
+Section: x11
+Maintainer: Slate <slate@example.invalid>
+Installed-Size: 5232
+Depends: base-files, kde-plasma-desktop, sddm, sddm-theme-breeze, plymouth, plymouth-label, numix-icon-theme-circle, breeze-gtk-theme, fonts-noto-core, fonts-hack, python3, python3-pyqt6, python3-pyqt6.qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, fastfetch, grub-common
+Recommends: brave-browser, dolphin, konsole, kde-spectacle, gwenview, okular, ark, kcalc, mpv, plasma-discover, papirus-icon-theme, fonts-noto-color-emoji
+Filename: pool/main/slate-desktop_0.2.1_all.deb
+Size: 3205132
+MD5sum: 89cca1d7a443b511f18c06c83800a3eb
+SHA1: a4e80fb225b23165b199490abd99a023046660a1
+SHA256: e4e1b1454dcc2f1d65b90db40b4613166b09ab2386f084e3863f3364d2af4aa5
+SHA512: 53bb68c3db4b2dd38f5d562f0f6410a5d384acad5eaa8cab842ab2b2757ee735b223e7cd97773d042c9522a7585450b5384681ee4f2b623883d387465a8efc80
+Description: Slate desktop: theme, wallpapers, boot splash and branding
+ Everything that makes a Debian + KDE Plasma system look and feel like Slate:
+ the Slate global themes (dark and light), color schemes, round icon theme,
+ wallpapers, Plymouth boot splash, login screen look, GRUB defaults, default
+ apps and the Slate os-release. Also adds the Slate update server, so new
+ Slate versions arrive with normal system updates.
+
+Package: slate-facetimehd
+Architecture: all
+Version: 0.7.0.1+git4159eef-1
+Priority: optional
+Section: kernel
+Maintainer: Slate <slate@example.invalid>
+Installed-Size: 296
+Depends: dkms, linux-headers-amd64, curl, xz-utils, cpio, ca-certificates
+Filename: pool/main/slate-facetimehd_0.7.0.1+git4159eef-1_all.deb
+Size: 42956
+MD5sum: d07b8cfc4ac1e4ca9a0a9fbd1bebe4a3
+SHA1: 32af538c912d9ccea1d161ffcd8cd35dffec7815
+SHA256: 7098b2ed196b36acf55540febbb2b02dfaf2f5087082461cda46b5b2ab8b3579
+SHA512: 0de02641890bc83f611504abf46f35e431ace9750c55cb97eadc239a764e9271d8fce49c5ccb66446fe9c21e969c660302861eef492e82f130c5443edabc9905
+Description: FaceTime HD camera driver for MacBooks (Slate)
+ The facetimehd driver (github.com/patjak/facetimehd), built with DKMS, plus
+ the camera firmware. Apple's firmware can't be redistributed, so it is
+ downloaded from Apple's update server during installation (about 18 MB) and
+ checked against known SHA-256 checksums.
+
